@@ -38,3 +38,78 @@
   justify-self: end;
 }
 
+.cover {
+  position: relative;
+  padding: 172px 50px 50px;
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 125%;
+  text-transform: uppercase;
+  color: #fff;
+  z-index: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000;
+  opacity: .6;
+  z-index: -1;
+}
+
+.cover__title {
+  margin-bottom: 134px;
+  font-size: 100px;
+  font-weight: bold;
+  letter-spacing: 0.3em;
+}
+
+.aligned-text {
+  display: block;
+  line-height: 1em;
+  margin-bottom: 28px;
+}
+
+.aligned-text_center {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.aligned-text_right {
+  text-align: end;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 0.6em;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+
+.cover__description {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 77px;
+}
+
+.cover__description-text {
+  font-size: 22px;
+  font-weight: normal;
+  word-spacing: 0.85em;
+}
+
+.bet-button {
+  width: 256px;
+  height: 51px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  font-size: 22px;
+  color: #fff;
+  text-transform: uppercase;
+}
