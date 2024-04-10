@@ -64,7 +64,7 @@
   margin-bottom: 134px;
   font-size: 100px;
   font-weight: bold;
-  letter-spacing: 0.3em;
+  letter-spacing: .3em;
 }
 
 .aligned-text {
@@ -83,7 +83,7 @@
 }
 
 .letter-spacing-extended {
-  letter-spacing: 0.6em;
+  letter-spacing: .6em;
 }
 
 .no-letter-spacing {
@@ -100,7 +100,7 @@
 .cover__description-text {
   font-size: 22px;
   font-weight: normal;
-  word-spacing: 0.85em;
+  word-spacing: .85em;
 }
 
 .bet-button {
@@ -108,6 +108,7 @@
   height: 51px;
   border: 1px solid #fff;
   background-color: transparent;
+  font-family: Raleway, sans-serif;
   font-size: 22px;
   color: #fff;
   text-transform: uppercase;
